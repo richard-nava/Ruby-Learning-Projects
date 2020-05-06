@@ -25,3 +25,15 @@ skills for communicating, information, and fun.
 image_url: 'dpchat.jpg',
 price: 20.00)
 # . . .
+
+Product.create!(title: 'The Guy from Hunger Games', 
+description:
+%{<p>
+    <em>He's a game designer?</em>
+   Can't tell if he's a genius or a psychopath since the game and it's map is well 
+   designed, but it's built for people to murder each other. 
+    </p>},
+image_url: 'crystal.jpg',
+price: 14.99)
+# . . .
+
